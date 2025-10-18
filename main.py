@@ -167,7 +167,3 @@ async def root():
         "message": "RAG API for TypeScript Book using aipipe.org",
         "usage": "GET /search?q=your question here"
     }
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
